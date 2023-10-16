@@ -1,0 +1,125 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  height: 25vh;
+  background-image: url(../images/back.jpg);
+  background-size: cover;
+}
+.nav-bar h1 {
+  color: white;
+  font-family: Pacifico;
+  font-size: 100px;
+  margin-left: 250px;
+}
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  margin-right: 450px;
+  padding-top: 50px;
+}
+.nav-bar ul a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+.nav-bar ul a:hover {
+  color: black;
+}
+
+.titles {
+  display: flex;
+  margin-left: 100px;
+}
+.titles p {
+  color: rgb(90, 148, 90);
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 2px 2px 3px green;
+  padding: 15px 50px 30px 0px;
+}
+
+.pics {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.pics img {
+  width: 30%;
+  height: 50vh;
+}
+
+.biggest {
+  height: 1230px;
+  background-image: url(../images/back.jpg);
+  background-size: cover;
+}
+.biggest hr {
+  color: white;
+  width: 1200px;
+  margin-left: 130px;
+  border: 1px solid white;
+}
+.biggest .div1 {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px 20px 0px;
+}
+.biggest .div1 img {
+  width: 40%;
+  height: 30vh;
+  padding-right: 20px;
+}
+.biggest h2 {
+  color: white;
+  font-size: 30px;
+  font-family: Pacifico;
+  padding: 60px 0px 20px 150px;
+  font-weight: bold;
+}
+.biggest .first-four, .biggest .second-four {
+  display: grid;
+  grid-template-columns: repeat(4, 310px);
+  padding-left: 150px;
+}
+.biggest .pro {
+  width: 30%;
+}
+.biggest .pro img {
+  height: 200px;
+  width: 200px;
+  border: 10px solid white;
+}
+.biggest .pro p {
+  padding: 5px 0px 5px 0px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.biggest .pro h3 {
+  color: white;
+  font-size: 25px;
+  font-family: Pacifico;
+  font-weight: bold;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-right: 300px;
+  padding-top: 70px;
+}
+footer ul a {
+  text-decoration: none;
+  color: rgb(255, 50, 203);
+  padding: 15px;
+  font-size: 31px;
+  font-family: Pacifico;
+}
+footer ul a:hover {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
